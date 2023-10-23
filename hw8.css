@@ -1,0 +1,145 @@
+/*Reset*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: inherit;
+    font-weight: inherit;
+}
+body {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+/*End Reset*/
+/*Common*/
+.container {
+    max-width: 1441px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*End Common*/
+/*Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 43px;
+    padding-top: 44px;
+}
+.logo {
+    display: block;
+    width: 129px;
+    height: 43px;
+
+}
+.logo-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.nav-list {
+
+}
+.nav-list__item {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #333;
+    margin-right: 15px;
+
+}
+/*End Header*/
+/*Promo block*/
+.promo-block {
+    padding: 159px 0 148px 28px;
+    
+}
+.main-title-wrap {
+    display: flex;
+    margin-bottom: 112px;
+
+}
+.main-title-wrap .title {
+    margin-right: 72px;
+    color: #000;
+    font-size: 68px;
+    font-weight: 700;
+}
+.main-title-wrap .title span {
+    display: block;
+
+}
+.main-title-wrap .content {
+    max-width: 500px;
+    width: 100%;
+}
+.main-title-wrap .content .text {
+    color: #333;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 28px;
+}
+.main-tite-wrap .content .read-more-link {
+    display: inline-block;
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: underline;
+
+}
+.main-info {
+    display: flex;
+
+}
+.main-info__item {
+    max-width: 380px;
+    width: 100%;
+    margin-right: 57px;
+}
+.main-info__item .icon {
+    display: block;
+    margin-bottom: 11px;
+    width: 60px;
+    height: 60px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main-info__item .icon.about-us-icon {
+    background-image: url("./Diamond.jpg");
+
+}
+.main-info__item .icon.our-mission-icon {
+    background-image: url("./pie-icon.jpg");
+
+}
+.main-info__item .icon.awards-icon {
+    background-image: url("./Icon3.jpg");
+}
+.main-info__item .title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 11px;
+
+}
+.main-info__item .description {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #444;
+}
+/*End promo block*/
+

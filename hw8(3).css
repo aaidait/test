@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: inherit;
+
+}
+.header {
+    margin-top: 125px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.paragraph {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+.price-list {
+    display: flex;
+    justify-content: space-between;
+}
+.yellow-text {
+    font-size: 11px;
+    background-color: #ffcb39;
+    
+}
+.price-list-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #f1f1f1;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+    padding: 50px 105px 58px;
+    text-align: center;
+}
+.price-card-title {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 170%;
+
+}
+.price-wrap {
+    display: flex;
+    align-items: baseline;
+}
+.price-wrap .price {
+    display: block;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+}
+.price-wrap .currency {
+    font-size: 18px;
+    font-weight: 700;
+
+
+}
+.price-text {
+    display: block;
+    font-size: 17px;
+    line-height: 170%;
+    margin-bottom: 41px;
+
+}
+.price-list-item .list {
+    margin-bottom: 126px;
+    list-style-type: none;
+
+}
+.price-list-item .li {
+    margin-bottom: 35px;
+}
+.container h2 {
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Oxygen;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; 
+}
+.container p {
+    color: #666;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    display: inline;
+}
+.button {
+    width: 146px;
+    height: 53px;
+    background: #F03125;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-radius: 150px;
+}
+.violet-btn {
+    border-radius: 50px;
+    background: #7d5fbd;
+    width: 166px;
+    height: 66px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 180%;
+    text-transform: uppercase;
+    margin-left: 530px;
+    border: 1px solid transparent;
+    
+}
+.green-btn {
+    align-items: center;
+    border-radius: 50px;
+    background: #8fca12;
+    width: 166px;
+    height: 66px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 180%;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+}
+.footer {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #111;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    color: #111;
+    text-align: right;
+    text-decoration-line: underline;
+}
+.social-media {
+    
+}
